@@ -44,7 +44,6 @@ const addVolumeSliders = () => {
                 return;
             }
             addVolumeSlider(e);
-            clearInterval(checker);
         });
 };
 
